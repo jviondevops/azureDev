@@ -14,19 +14,18 @@ variable "suffix" {
 }
 
 variable "resource_group_name" {
-  type = string
+  default = "data-science-rg"
 }
 
 variable "virtual_net" {
-  type = string
+  default = "data-science-vnet"
 }
 
 variable "subnet" {
-  type = string
+  default = "virtual-machines"
 }
 
 variable "location" {
-  type = string
   default = "eastus2"
 }
 
