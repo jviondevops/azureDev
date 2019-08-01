@@ -1,3 +1,4 @@
+set -x
 az login -u partha.chatterjee@jvion.com -p Stepover@17
 terraform init
 terraform state list >> test.txt
